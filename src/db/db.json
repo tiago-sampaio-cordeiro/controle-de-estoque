@@ -1,0 +1,89 @@
+{
+  "electronicProducts": [
+    {
+      "id": "f0fb",
+      "productName": "note",
+      "price": null,
+      "quantity": null,
+      "brand": "5",
+      "voltage": "4",
+      "color": "5"
+    },
+    {
+      "id": "dc34",
+      "productName": "notebook",
+      "price": 1500,
+      "quantity": 40,
+      "brand": "asus",
+      "voltage": "",
+      "color": "branco"
+    },
+    {
+      "id": "3d67",
+      "productName": "kkkk",
+      "price": null,
+      "quantity": null,
+      "brand": "kkk",
+      "voltage": "",
+      "color": "ggf"
+    }
+  ],
+  "clothes": [
+    {
+      "id": "e1d1",
+      "productName": "calça",
+      "price": 15,
+      "quantity": 40,
+      "brand": "marcadagua",
+      "size": "M",
+      "clothesColor": "azul",
+      "tissue": "jeans"
+    }
+  ],
+  "furniture": [
+    {
+      "id": "1015",
+      "productName": "sofa",
+      "price": 500,
+      "quantity": 5,
+      "furnitureColor": "marrom"
+    }
+  ],
+  "stationery": [
+    {
+      "id": "7c82",
+      "productName": "carteira escolar",
+      "price": 10,
+      "quantity": 50,
+      "stationeryBrand": "marrom"
+    }
+  ],
+  "petshop": [
+    {
+      "id": "64e2",
+      "productName": "osso",
+      "price": 5,
+      "quantity": 4,
+      "petColor": "amarelo",
+      "petType": "cacchorro"
+    }
+  ],
+  "toy": [
+    {
+      "id": "f858",
+      "productName": "carrinho",
+      "price": 5,
+      "quantity": 4,
+      "material": "plastico",
+      "toyColor": "branco"
+    },
+    {
+      "id": "3b6f",
+      "productName": "boneca",
+      "price": 50,
+      "quantity": 5,
+      "material": "plastico",
+      "toyColor": "amarelo"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const clothesController_1 = __importDefault(require("./controllers/clothesController"));
+const electronicProductController_1 = __importDefault(require("./controllers/electronicProductController"));
+const furnitureController_1 = __importDefault(require("./controllers/furnitureController"));
+const petshopController_1 = __importDefault(require("./controllers/petshopController"));
+const startController_1 = __importDefault(require("./controllers/startController"));
+const stationeryController_1 = __importDefault(require("./controllers/stationeryController"));
+const toyController_1 = __importDefault(require("./controllers/toyController"));
+const screen_1 = __importDefault(require("./views/screen"));
+const apiURL = 'http://localhost:3001';
+let electronicProductController = new electronicProductController_1.default(apiURL);
+let clothesController = new clothesController_1.default(apiURL);
+let furnitureController = new furnitureController_1.default(apiURL);
+let stationeryController = new stationeryController_1.default(apiURL);
+let petShopController = new petshopController_1.default(apiURL);
+let toyController = new toyController_1.default(apiURL);
+let screen = new screen_1.default(electronicProductController, clothesController, furnitureController, stationeryController, petShopController, toyController);
+let start = new startController_1.default(electronicProductController, clothesController, furnitureController, stationeryController, petShopController, toyController, screen);
+start.start();
